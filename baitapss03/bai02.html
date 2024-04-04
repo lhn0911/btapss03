@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const integerNumber = 10;
+        const array = [1, 2, 3];
+
+        // const integerNumber = 5;
+        // Lỗi: Uncaught SyntaxError: Identifier 'integerNumber' has already been declared(lỗi đã được khai báo)
+        
+        array.unshift(0);
+
+        console.log(integerNumber); // 10
+        console.log(array); // [0,1,2,3]
+
+    </script>
+</body>
+</html>
